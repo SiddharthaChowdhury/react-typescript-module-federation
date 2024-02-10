@@ -5,7 +5,7 @@ const Editor = () => {
 
 	return (
 		<div>
-			<div>I am the MFE222 component</div>
+			<div>I am the MFE csomponent</div>
 			<div>Your click count : {count} </div>
 			<button onClick={() => setCount(count + 1)}>Click me</button>
 		</div>

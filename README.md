@@ -10,6 +10,10 @@ This project uses yarn-workspace and the main motivation was to have the webpack
 2. `yarn start:editor`
 3. `yarn start` At https://localhost:3000 is the host/container app that use the **_editor_** app
 
+## Known issue:
+
+1. HMR in editor app not working
+
 Reference:
 
 - https://github.com/ogzhanolguncu/react-typescript-module-federation

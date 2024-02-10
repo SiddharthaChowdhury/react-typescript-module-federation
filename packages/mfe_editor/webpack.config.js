@@ -26,8 +26,12 @@ module.exports = {
 	},
 	plugins: [
 		new ModuleFederationPlugin({
-			name: "editor",
+			name: "app1",
 			filename: "remoteEntry.js",
+			// exposes: {
+			// 	// expose each component
+			// 	"./CounterAppOne": "./src/components/CounterAppOne",
+			// },
 			exposes: {
 				"./Editor": "./src/components/Editor",
 			},
@@ -38,6 +42,11 @@ module.exports = {
 					singleton: true,
 					eager: true,
 					requiredVersion: deps["react-dom"],
+				},
+				"react-router-dom": {
+					singleton: true,
+					eager: true,
+					requiredVersion: deps["react-router-dom"],
 				},
 			},
 		}),
