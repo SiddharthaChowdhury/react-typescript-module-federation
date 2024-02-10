@@ -2,7 +2,7 @@
 
 react, typescript, yarn-workspace, webpack-module-federation
 
-This project yarn-workspace and main motivation was to have the webpack HMR working for both container and the child app.
+This project uses yarn-workspace and the main motivation was to have the webpack HMR working in both the container and the child app.
 
 ## Try repo
 
