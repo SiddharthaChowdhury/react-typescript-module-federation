@@ -1,0 +1,16 @@
+{
+	"name": "react-typescript-module-federation",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "https://github.com/SiddharthaChowdhury/react-typescript-module-federation.git",
+	"author": "sidd <siddharthac6@gmail.com>",
+	"license": "MIT",
+	"private": "true",
+	"workspaces": [
+		"packages/*"
+	],
+	"scripts": {
+		"start": "yarn workspace hostapp start",
+		"start:editor": "yarn workspace mfe_editor start"
+	}
+}
